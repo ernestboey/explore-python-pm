@@ -31,8 +31,8 @@ $ pipenv install requests
 $ pipenv run python main.py
 ```
 
-Virtualenv location was **~/.local/share/virtualenv/pipenv-asdf1234**
-Technically pollutes host machine.
+* Virtualenv location was **~/.local/share/virtualenv/pipenv-asdf1234**
+* Technically pollutes host machine.
 
 4. Remove virtualenv
 ```

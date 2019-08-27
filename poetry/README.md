@@ -37,9 +37,9 @@ $ poetry update [specific packages]
 $ poetry run python poetry/main.py
 ```
 
-Virtualenv location was **~/Library/Caches/pypoetry/virtualenvs**
+* Virtualenv location was **~/Library/Caches/pypoetry/virtualenvs**
 
-5. Remove virtualenv
+1. Remove virtualenv
 ```
 $ poetry env info
 $ poetry env remove python
