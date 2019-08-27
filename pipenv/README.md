@@ -15,20 +15,26 @@
 
 ## Usage
 
-1. Install dependencies
+1. Initialise project
+```
+$ pipenv --python 3.7
+```
+
+2. Install dependencies
 ```
 $ pipenv install requests
 ```
 
-2. Run code
+3. Run code
 
 ```
 $ pipenv run python main.py
 ```
 
 Virtualenv location was **~/.local/share/virtualenv/pipenv-asdf1234**
+Technically pollutes host machine.
 
-3. Remove virtualenv
+4. Remove virtualenv
 ```
 $ pipenv --rm
 ```
